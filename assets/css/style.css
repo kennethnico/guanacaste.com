@@ -2514,12 +2514,12 @@ input[type=time]::-webkit-calendar-picker-indicator {
           user-select: none;
 }
 
-@media (max-width: 800){
+@media (max-width: 800px){
   .th-preloader .animation-preloader .txt-loading {
-    font-family: var(--title-font);
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 700;
+    margin-top: 20px!important;
+    font-size: 40px!important;
+    line-height: 40px;
+    font-weight: 700;
   }
 }
 
