@@ -2514,6 +2514,15 @@ input[type=time]::-webkit-calendar-picker-indicator {
           user-select: none;
 }
 
+@media (max-width: 800){
+  .th-preloader .animation-preloader .txt-loading {
+    font-family: var(--title-font);
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  }
+}
+
 .th-preloader .animation-preloader .txt-loading p {
   display: inline-block;
 }
@@ -8350,7 +8359,7 @@ ol.wp-block-rss {
 @media (max-width: 375px) {
   .header-layout3 .header-logo {
     padding: 0;
-    max-width: 150px;
+    max-width: 100px;
   }
 }
 
