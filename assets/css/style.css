@@ -8356,9 +8356,15 @@ ol.wp-block-rss {
   }
 }
 
+@media (max-width:500px){
+  .header-logo > a  > img{
+    max-width: 90%!important;
+  }
+}
+
 @media (max-width: 375px) {
   /*.header-layout3 .header-logo {*/
-  .header-logo {
+  .header-logo{
     padding: 0;
     max-width: 100px!important;
   }
