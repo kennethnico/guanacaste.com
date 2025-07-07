@@ -19,7 +19,7 @@
     <!-- Favicon por defecto (para navegadores que no soportan consultas de medios en las etiquetas link) -->
     <!--<link rel="icon" type="image/png" href="assets/img/favicons/ico-1.png">-->
     <!--<link rel="icon" type="image/png" href="assets/img/favicons/ico-1.png">-->
-    <link rel="icon" type="image/png" href="assets/img/favicons/ico.png" data-href-light="assets/img/favicons/ico.png" data-href-dark="assets/img/favicons/ico-1.png">
+    <link rel="icon" type="image/ico" href="assets/img/ico.ico" data-href-light="assets/img/ico.png" data-href-dark="assets/img/ico-1.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#0A4C6A">
@@ -121,13 +121,11 @@
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children mega-menu-wrap">
-                        <a class="" href="index.html">Inicio</a>
-                    </li>
+                    <li><a class="" href="index.html">Inicio</a></li>
+                    <li><a class="active" href="about.html">¿Quiénes somos?</a></li>
                     <li><a href="#">Tilarán te espera</a></li>
                     <li><a href="#">Inversión & Desarrollo</a></li>
                     <li><a href="#">Directorio local</a></li>
-                    <li><a class="active" href="about.html">¿Quiénes somos?</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
@@ -172,16 +170,13 @@
                         <div class="col-auto me-xl-auto">
                             <nav class="main-menu d-none d-xl-inline-block">
                                 <ul>
-                                    <li class="menu-item"><a href="index.html">Inicio</a>
-                                    </li>
+                                    <li class="menu-item"><a href="index.html">Inicio</a></li>
+                                    <li><a class="active" href="#">¿Quiénes somos?</a></li>
                                     <li class="menu-item"><a href="#">Tilarán te espera</a></li>
                                     <li class="menu-item"><a href="#">Inversión & Desarrollo</a></li>
                                     <li class="menu-item"><a href="#">Directorio local</a></li>
-                                    <li><a class="active" href="#">¿Quiénes somos?</a></li>
                                     <li class="menu-item"><a href="#">Blog</a></li>
-                                    <li>
-                                        <a href="contact.html">Contacto</a>
-                                    </li>
+                                    <li><a href="contact.html">Contacto</a></li>
                                 </ul>
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="fa-solid fa-bars"></i></button>
@@ -298,97 +293,155 @@ elements Area
     </div>
 -->
 <!--==============================
+Nuestra historia
+==============================-->
+    <!--<section class="testi-area7 bg-smoke overflow-hidden space" id="testi-sec" style="padding-top: 50px!important;" data-bg-src="assets/img/bg/map.png">-->
+    <section class="testi-area7 bg-smoke overflow-hidden space" id="testi-sec" style="padding-top: 50px!important;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10" style="border-color: red!important; border-width: 10px!important;">
+                    <div class="title-area mb-40">
+                        <span class="sub-title">De sueños rotos a pura vida</span>
+                        <h2 class="sec-title">Nuestra Historia</h2>
+                    </div>
+                    <!--
+                    <div class="swiper th-slider testiSlide5" id="testiSlide7" data-slider-options='{"effect":"slide","loop":false,"thumbs":{"swiper":".testi-grid2-thumb"}}'>
+                        <div class="swiper-wrapper">
+                        </div>
+                    </div>
+                -->
+                    <div class="swiper th-slider testi-grid2-thumb style2" data-slider-options='{"effect":"slide","slidesPerView":"6","spaceBetween":7,"loop":false}'>
+                        <div class="swiper-wrapper">
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="col-xl-6">
+                    <div class="testi-image-wrapp2">
+                    </div>
+                </div>
+            -->
+            </div>
+        </div>
+        <div class="shape-mockup z-index-3 d-none d-xl-block" data-bottom="0%" data-right="0%">
+            <!--<img src="assets/img/shape/shape_21.png" alt="shape">-->
+        </div>
+    </section>
+<!--==============================
 Team Area  
 ==============================-->
     <!--<section class="team-area3 position-relative bg-top-center space" data-bg-src="assets/img/bg/team_bg_2.jpg">-->
-    <section class="team-area3 position-relative bg-top-center space" style="background-color: #B9DCCB; padding-top: 40px!important;">
+        <!--<section class="team-area3 position-relative bg-top-center space" style="background-color: #fff; padding-top: 40px!important;">-->
+        <!--<section class="team-area3 position-relative bg-top-center space" data-bg-src="assets/img/bg/bg-team.jpg" style="background-size: contain;">
+        <div class="container z-index-common">-->
+    <section class="space" style="background-color: #F2F1EE;">
         <div class="container z-index-common">
             <div class="title-area text-center">
                 <span class="sub-title">Nuestro Equipo</span>
                 <h2 class="sec-title">Cónocenos</h2>
             </div>
+            <!--<div class="slider-area">
+                <div class="swiper th-slider teamSlider3 has-shadow" id="teamSlider3" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>-->
             <div class="slider-area">
-                <div class="swiper th-slider teamSlider3 has-shadow" id="teamSlider3" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
+                <div class="swiper th-slider teamSlider5 has-shadow" id="teamSlider5" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="th-team team-grid">
+                            <div class="th-team team-box style2">
                                 <div class="team-img">
-                                    <!--Back - Blue -->
-                                    <img src="assets/img/back_team.webp" alt="Team">
-                                </div>
-                                <div class="team-img2">
-                                    <!--<img src="assets/img/team/team_1_1.jpg" alt="Team">-->
                                     <img src="assets/img/hero-dummy/user.webp" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="tour-guider-details.html">Magdiel Levi Santiago</a></h3>
                                         <span class="team-desig">Músico, Escritor y Custodio de la Belleza Tica</span>
-
-
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <!--<a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>-->
+                                            <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <!-- Single Item -->
                         <div class="swiper-slide">
-                            <div class="th-team team-grid">
+                            <div class="th-team team-box style2">
                                 <div class="team-img">
-                                    <!--Back - Blue -->
-                                    <img src="assets/img/back_team.webp" alt="Team">
-                                </div>
-                                <div class="team-img2">
-                                    <img src="assets/img/hero-dummy/user.webp" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Persona 1</a></h3>
-                                        <span class="team-desig">Cargo</span>
-
-
-                                        <div class="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                            <!--<a target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>-->
-                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img">
-                                    <!--Back - Blue -->
-                                    <img src="assets/img/back_team.webp" alt="Team">
-                                    <!--<img src="assets/img/team/team_img_3.jpg" alt="Team">-->
-                                </div>
-                                <div class="team-img2">
                                     <img src="assets/img/hero-dummy/user.webp" alt="Team">
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="tour-guider-details.html">Persona 2</a></h3>
-                                        <span class="team-desig">Cargo</span>
-
-
+                                        <span class="team-desig">Especialista en...</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
                                             <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <div class="swiper-slide">
+                            <div class="th-team team-box style2">
+                                <div class="team-img">
+                                    <img src="assets/img/hero-dummy/user.webp" alt="Team">
+                                </div>
+                                <div class="team-content">
+                                    <div class="media-body">
+                                        <h3 class="box-title"><a href="tour-guider-details.html">Persona 3</a></h3>
+                                        <span class="team-desig">Especialista en...</span>
+                                        <div class="th-social">
+                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <div class="swiper-slide">
+                            <div class="th-team team-box style2">
+                                <div class="team-img">
+                                    <img src="assets/img/hero-dummy/user.webp" alt="Team">
+                                    <!--<img src="assets/img/team/team_1_1.jpg" alt="Team">-->
+                                </div>
+                                <div class="team-content">
+                                    <div class="media-body">
+                                        <h3 class="box-title"><a href="tour-guider-details.html">Persona 4</a></h3>
+                                        <span class="team-desig">Especialista en...</span>
+                                        <div class="th-social">
+                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <div class="swiper-slide">
+                            <div class="th-team team-box style2">
+                                <div class="team-img">
+                                    <img src="assets/img/hero-dummy/user.webp" alt="Team">
+                                    <!--<img src="assets/img/team/team_1_1.jpg" alt="Team">-->
+                                </div>
+                                <div class="team-content">
+                                    <div class="media-body">
+                                        <h3 class="box-title"><a href="tour-guider-details.html">Persona 5</a></h3>
+                                        <span class="team-desig">Especialista en...</span>
+                                        <div class="th-social">
+                                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                            <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
