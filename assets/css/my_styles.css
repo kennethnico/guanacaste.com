@@ -1,12 +1,9 @@
-.icon-equis {
-    padding-top: 5px!important;
-  display: inline-block!important;
-  width: 20px;              /* ajusta según el tamaño del SVG */
-  height: 20px;
-  background-image: url("../fonts/svgs/brands/x-twitter.svg");
-  background-repeat: no-repeat!important;
-  background-size: contain!important;
-  background-position: center!important;
-  color: rebeccapurple!important;
-
+.cd-h-timeline__event-title{
+  /*font-family: 'Montez', sans-serif!important;*/
+  font-size: 1.8em!important;
 }
+.cd-h-timeline__event-date{
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 300;
+}
+/*#1C8F9B*/

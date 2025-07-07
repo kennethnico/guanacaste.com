@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 html,
 body,
 div,
@@ -3136,7 +3137,7 @@ mark {
   --cd-color-1-h: 0;
   --cd-color-1-s: 0%;
   --cd-color-1-l: 22%;
-  --cd-color-2: hsl(74, 93%, 32%);
+  --cd-color-2:#0A4C6A;
   --cd-color-2-h: 74;
   --cd-color-2-s: 93%;
   --cd-color-2-l: 32%;
@@ -3221,7 +3222,7 @@ body {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: hsl(74, 93%, 32%);
+  background-color:#0A4C6A;
   background-color: var(--cd-color-2);
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -3273,9 +3274,9 @@ body {
   transition: background-color 0.3s, border-color 0.3s;
 }
 .js .cd-h-timeline__date:hover::after {
-  background-color: hsl(74, 93%, 32%);
+  background-color:#0A4C6A;
   background-color: var(--cd-color-2);
-  border-color: hsl(74, 93%, 32%);
+  border-color:#0A4C6A;
   border-color: var(--cd-color-2);
 }
 @media (min-width: 64rem) {
@@ -3287,13 +3288,13 @@ body {
   pointer-events: none;
 }
 .js .cd-h-timeline__date--selected::after {
-  background-color: hsl(74, 93%, 32%);
+  background-color:#0A4C6A;
   background-color: var(--cd-color-2);
-  border-color: hsl(74, 93%, 32%);
+  border-color:#0A4C6A;
   border-color: var(--cd-color-2);
 }
 .js .cd-h-timeline__date--older-event::after {
-  border-color: hsl(74, 93%, 32%);
+  border-color:#0A4C6A;
   border-color: var(--cd-color-2);
 }
 .js .cd-h-timeline__navigation {
@@ -3329,7 +3330,7 @@ body {
   background: url(../img/cd-arrow.svg) no-repeat 0 0;
 }
 .js .cd-h-timeline__navigation:hover {
-  border-color: hsl(74, 93%, 32%);
+  border-color: #0A4C6A;
   border-color: var(--cd-color-2);
 }
 .js .cd-h-timeline__navigation--prev {
@@ -3406,10 +3407,10 @@ body {
   color: hsl(0, 0%, 22%);
   color: var(--cd-color-1);
   /*font-family: "Playfair Display", serif;*/
-  font-family: "Montez", cursive;
-  font-family: var(--font-secondary);
+  font-family:  "Nunito Sans", sans-serif;
+  /*font-family: var(--font-secondary);*/
   font-weight: 700;
-  font-size: 2.48832em;
+  font-size: 1.48832em;
   font-size: var(--text-xxxl);
 }
 .js .cd-h-timeline__event-date {
