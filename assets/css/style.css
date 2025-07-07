@@ -8357,9 +8357,10 @@ ol.wp-block-rss {
 }
 
 @media (max-width: 375px) {
-  .header-layout3 .header-logo {
+  /*.header-layout3 .header-logo {*/
+  .header-logo {
     padding: 0;
-    max-width: 100px;
+    max-width: 100px!important;
   }
 }
 
