@@ -6,4 +6,23 @@
   font-family: "Nunito sans", sans-serif;
   font-weight: 300;
 }
-/*#1C8F9B*/
+.cd-timeline__img > i , .cd-timeline__img--movie > i{
+color: #fff;
+font-size: 1.6em;
+}
+
+.cd-timeline__img:hover > i, .cd-timeline__img--movie:hover > i{
+/*color: var(--primary-color);*/
+font-size: 1.8em;
+}
+
+.cd-timeline__date{
+  font-family: var(--body-font);
+  color: var(--primary-color)!important;
+  font-size: 1.45em!important;
+}
+@media (max-width: 1024px){
+  .cd-timeline__date{
+    font-size: 1em!important;
+  }
+}

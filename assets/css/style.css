@@ -98,7 +98,7 @@
   --th-border-color: #E9EDF5;
   --title-font: "Nunito", sans-serif;
   --body-font: "Nunito", sans-serif;
-  --style-font: "Montez", cursive;
+  --montez-font: "Montez", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1320px;
   --container-gutters: 24px;
@@ -109,15 +109,29 @@
 }
 
 /*------------------- 1.5. Typography -------------------*/
-.nunito-sans-600 {
-  font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+.nunito-sans-600{
+  font-family: "Nunito Sans", sans-serif!important;
+  font-optical-sizing: auto!important;
+  font-weight: 600!important;
+  font-style: normal!important;
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
 }
+.nunito-sans-400{
+  font-family: "Nunito Sans", sans-serif!important;
+  font-optical-sizing: auto!important;
+  font-weight: 400!important;
+  font-style: normal!important;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+.montez-font{
+  font-family: var(--montez-font)!important;
+  font-weight: 800!important;
+}
+
 html,
 body {
   scroll-behavior: auto !important;
