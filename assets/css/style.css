@@ -129,7 +129,7 @@
 }
 .montez-font{
   font-family: var(--montez-font)!important;
-  font-weight: 800!important;
+  /*font-weight: 800!important;*/
 }
 
 html,
