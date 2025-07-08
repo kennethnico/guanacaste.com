@@ -3127,6 +3127,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .sub-title {
+  font-family: "Montez", sans-serif!important;
   display: block;
   color: var(--title-color);
   font-size: 40px;
@@ -11534,6 +11535,10 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   object-fit: cover;
 }
 
+
+.hero-2 .my-scroll-down {
+  text-align: center;
+}
 .hero-2 .scroll-down {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
@@ -32562,7 +32567,7 @@ span.select2-selection.select2-selection--single:focus {
   bottom: 40px;
   z-index: 2;
   max-width: 423px;
-  width: 100%;
+  width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -32840,7 +32845,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1199px) {
   .destination-list-wrap.active {
-    max-width: 100%;
+    max-width: 60%;
   }
 }
 

@@ -172,6 +172,7 @@
     };
     onePageNav('.onepage-nav');
     onePageNav('.scroll-down');
+    onePageNav('.my-scroll-down');
     //one page sticky menu  
     $(window).on('scroll', function () {
         if ($('.onepage-nav').length > 0) {};
