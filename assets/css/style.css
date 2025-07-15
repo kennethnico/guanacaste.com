@@ -32911,9 +32911,9 @@ span.select2-selection.select2-selection--single:focus {
 
 .destination-list .box-title {
   font-weight: 600;
-  font-size: 28px;
+  /*font-size: 28px;*/
   line-height: 40px;
-  letter-spacing: 0.02em;
+  /*letter-spacing: 0.02em;*/
   color: var(--white-color);
   margin-bottom: 0;
   /* Extra small devices */
