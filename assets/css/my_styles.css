@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'CasualRush';
+    src: url('../my-fonts/casual-rush.otf') formato('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.casual-rush-font{
+  font-family: 'CasualRush'!important;
+}
 .cd-h-timeline__event-title{
   /*font-family: 'Montez', sans-serif!important;*/
   font-size: 1.5em!important;
@@ -24,5 +34,20 @@ font-size: 1.8em;
 @media (max-width: 1024px){
   .cd-timeline__date{
     font-size: 1em!important;
+  }
+}
+
+.my-th-btn{
+  border-radius: 15px!important;
+  padding: 10px 20px!important;
+}
+
+.my-margin-5{
+  margin: 0 10%;  
+}
+
+@media (max-width:900px){
+  .my-margin-5{
+  margin: 0 2%;  
   }
 }

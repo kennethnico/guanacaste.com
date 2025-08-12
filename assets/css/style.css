@@ -80,9 +80,9 @@
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #4EB4C5; /*Encabezados principales, secciones institucionales*/
-  --primary-color: #4EB4C5; /*Fondos, bloques informativos, navegación suave*/
-  --title-color: #0A4C6A;
+  --theme-color: #1ecad3; /*Encabezados principales, secciones institucionales*/
+  --primary-color: #1ecad3; /*Fondos, bloques informativos, navegación suave*/
+  --title-color: #004d71;
   /*--body-color: #E3E6E7;*/
   --body-color: #0F4C47;
   --smoke-color: #E9F6F9;
@@ -2673,7 +2673,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
   content: '';
   width: 0;
   height: 100%;
-  border-radius: 30em;
+  /*border-radius: 30em;*/
   position: absolute;
   top: 0;
   left: -5%;
@@ -3519,8 +3519,8 @@ hr.title-line {
   width: var(--icon-size, 32px);
   height: var(--icon-size, 32px);
   line-height: var(--icon-size, 32px);
-  background-color: #E9F6F9;
-  color: var(--theme-color);
+  background-color: #E9F6F9!important;
+  color: #3cb4d2!important;
   font-size: 16px;
   border-radius: 50%;
   text-align: center;
@@ -3534,8 +3534,8 @@ hr.title-line {
 }
 
 .th-social a:hover {
-  background-color: var(--theme-color);
-  color: var(--white-color);
+  background-color: var(--theme-color)!important;
+  color: #FFF!important;
 }
 
 .th-social a:hover i {
@@ -13314,7 +13314,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 }
 
 .hero-form .sec-title {
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 600;
   /* Extra small devices */
 }
@@ -19051,7 +19051,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1199px) {
   .img-box1 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
@@ -21046,9 +21046,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 @media (max-width: 1299px) {
-  .about13-wrapp .about13-img {
+  /*.about13-wrapp .about13-img {
     display: none;
-  }
+  }*/
 }
 
 .sec-text2 {
@@ -22434,14 +22434,14 @@ span.select2-selection.select2-selection--single:focus {
 
 .testi-card_review i {
   color: #FFA944;
-  font-size: 14px;
+  font-size: 11px;
   margin-right: 3px;
   /* Medium devices */
 }
 
 @media (max-width: 991px) {
   .testi-card_review i {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
