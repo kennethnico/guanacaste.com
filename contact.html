@@ -9,12 +9,8 @@
     <meta name="description" content="Tilaran Guanacaste">
     <meta name="keywords" content="Tilaran Guanacaste">
     <meta name="robots" content="INDEX,FOLLOW">
-
-
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
     <!-- Favicons -->
      <!--
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
@@ -64,6 +60,7 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/my_styles.css">
     <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
 </head>
 
@@ -137,11 +134,11 @@
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item"><a class="" href="index.html">Inicio</a></li>
-                    <li class="menu-item"><a class="#" href="about.html">¿Quiénes somos?</a></li>
+                    <li class="menu-item"><a class="#" href="about.html">Somos</a></li>
                     <li class="menu-item"><a href="tilaran.html">Tilarán te espera</a></li>
-                    <li class="menu-item"><a href="#">Inversión & Desarrollo</a></li>
-                    <li class="menu-item"><a href="#">Directorio local</a></li>
-                    <li class="menu-item"><a href="#">Blog</a></li>
+                    <li class="menu-item"><a href="#">Inversión y Desarrollo</a></li>
+                    <li class="menu-item"><a href="#">Directorio</a></li>
+                    <!--<li class="menu-item"><a href="#">Blog</a></li>-->
                     <li class="menu-item"><a class="active" href="#">Contacto</a></li>
                 </ul>
             </div>
@@ -191,7 +188,7 @@
                                     <li class="menu-item"><a href="tilaran.html" style="text-transform: none!important;">Tilarán te espera</a></li>
                                     <li class="menu-item"><a href="#" style="text-transform: none!important;">Inversión y Desarrollo</a></li>
                                     <li class="menu-item"><a href="#">Directorio</a></li>
-                                    <li><a class="active" href="contact.html">Contacto</a></li>
+                                    <li><a class="active" href="#">Contacto</a></li>
                                 </ul>
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="fa-solid fa-bars"></i></button>
@@ -209,26 +206,150 @@
             </div>
         </div>
     </header>
+<!--==============================
+Hero Area
+==============================-->
+    <div class="hero-2 my-hero-2" id="hero">
+        <div class="slider-wrap">
+            <div class="swiper th-slider has-shadow" id="heroSlider9" data-slider-options='{"effect":"fade","paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"},"1300":{"slidesPerView":"1"}}}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <!--<div class="th-hero-bg" data-bg-src="assets/img/hero/hero_9_1.jpg"></div>-->
+                            <video class="my-hero-2" autoplay loop muted>
+                            <!--<source src="assets/img/hero/hero-video.mp4" type="video/mp4">-->
+                            <source src="assets/img/hero-dummy/video-test.mp4" type="video/mp4">
+                            </video>
+                            <div class="container">
+                                <div class="hero-style9 nunito-sans-400">
+                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Contacto</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--  
+            <div class="slider-controller">
+                <button data-slider-prev="#heroSlider9" class="hero-arrow slider-prev"><img src="assets/img/icon/hero-arrow-left.svg" alt=""></button>
+                <div class="slider-pagination" data-slider-id="#heroSlider9"></div>
+                <button data-slider-next="#heroSlider9" class="hero-arrow slider-next"><img src="assets/img/icon/hero-arrow-right.svg" alt=""></button>
+            </div>
+        -->
+        </div>
+<!--
+        <div class="hero9-wrapp">
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-lg-8">
+                        <div class="hero-booking style2">
+                            <form action="mail.php" method="POST" class="booking-form style5 ajax-contact">
+                                <div class="input-wrap">
+                                    <div class="row align-items-center justify-content-between">
+                                        <div class="form-group col-md-6 col-xl-auto">
+                                            <div class="icon">
+                                                <i class="fa-light fa-route"></i>
+                                            </div>
+                                            <div class="search-input">
+                                                <label>Destination</label>
+                                                <select class=" nice-select" name="Destination" id="Destination">
+                                                    <option value="Select Destination" selected disabled>Select Destination
+                                                    </option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Dubai">Dubai</option>
+                                                    <option value="England">England</option>
+                                                    <option value="Sweden">Sweden</option>
+                                                    <option value="Thailand">Thailand</option>
+                                                    <option value="Egypt">Egypt</option>
+                                                    <option value="Saudi Arab">Saudi Arab</option>
+                                                    <option value="Switzerland">Switzerland</option>
+                                                    <option value="Scandinavia">Scandinavia</option>
+                                                    <option value="Western Europe">Western Europe</option>
+                                                    <option value="Indonesia">Indonesia</option>
+                                                    <option class="Italy">Italy</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-xl-auto">
+                                            <div class="icon">
+                                                <i class="fa-regular fa-person-hiking"></i>
+                                            </div>
+                                            <div class="search-input">
+                                                <label>Type</label>
+                                                <select class=" nice-select" name="type" id="type">
+                                                    <option value="Adventure" selected disabled>Adventure</option>
+                                                    <option value="Beach">Beach</option>
+                                                    <option value="Group Tour">Group Tour</option>
+                                                    <option value="Couple Tour">Couple Tour</option>
+                                                    <option value="Family Tour">Family Tour</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6 col-xl-auto">
+                                            <div class="icon">
+                                                <i class="fa-light fa-clock"></i>
+                                            </div>
+                                            <div class="search-input">
+                                                <label>Duration</label>
+                                                <select class="form-select nice-select" name="Duration" id="Duration">
+                                                    <option value="Normal" selected disabled>Duration</option>
+                                                    <option value="1">1 days</option>
+                                                    <option value="2">2 days</option>
+                                                    <option value="3">3 days</option>
+                                                    <option value="4">4 days</option>
+                                                    <option value="5">5 days</option>
+                                                    <option value="6">6 days</option>
+                                                    <option value="7">7 days</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-btn col-md-6 col-xl-auto">
+                                            <button class="th-btn"><img src="assets/img/icon/search.svg" alt="">Search</button>
+                                        </div>
+                                    </div>
+                                    <p class="form-messages mb-0 mt-3"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-left">
+            <div class="header-links">
+                <ul>
+                    <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular  fa-location-dot"></i>
+                        <span>45 New Eskaton Road, Austria</span>
+                    </li>
+                    <li class="d-none d-xl-inline-block"><i class="fa-regular fa-clock"></i>
+                        <span>Sun to Friday: 8.00 am - 7.00 pm</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    -->
+    </div>
     <!--==============================
     Breadcumb
 ============================== -->
+<!--
     <div class="breadcumb-wrapper " data-bg-src="assets/img/hero-dummy/contact.jpg">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Contacto</h1>
-                <!--<ul class="breadcumb-menu">
-                    <li><a href="home-travel.html">Home</a></li>
-                    <li>Contact Us</li>
-                </ul>-->
             </div>
         </div>
-    </div><!--==============================
+    </div>
+
+-->
+    <!--==============================
 Contact Area  
 ==============================-->
     <div class="space">
         <div class="container">
             <div class="title-area text-center">
-                <span class="sub-title">Contáctanos</span>
+                <span class="sub-title casual-rush-font">Contáctanos</span>
                 <h2 class="sec-title">Nuestra Información</h2>
             </div>
             <div class="row gy-4 justify-content-center">
