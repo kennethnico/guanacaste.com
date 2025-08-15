@@ -12034,8 +12034,9 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero-3 .th-hero-bg {
   width: 100%;
   height: 100%;
+  /*object-fit: cover;
+  overflow: hidden;*/
 }
-
 .hero-3 .th-hero-bg:before {
   content: "";
   position: absolute;
@@ -12043,12 +12044,11 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   background: -webkit-linear-gradient(167.93deg, rgba(13, 13, 12, 0) -4.13%, rgba(13, 13, 12, 0.7) 84.33%);
   background: linear-gradient(282.07deg, rgba(13, 13, 12, 0) -4.13%, rgba(13, 13, 12, 0.7) 84.33%);
 }
-
 .hero-3 video {
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: cover;
   overflow: hidden;
 }
@@ -12218,7 +12218,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero3Thumbs {
   position: relative;
   right: 0;
-  bottom: 110px;
+  bottom: 100px;
   max-width: 424px;
   height: 186px;
   /* Medium Large devices */
@@ -12297,7 +12297,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   right: 0;
   bottom: -186px;
   min-width: 424px;
-  height: 110px;
+  height: 100px;
   background-color: var(--theme-color);
   z-index: 99;
   /* Medium Large devices */
@@ -12350,7 +12350,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero3-swiper-custom .swiper-button-next,
 .hero3-swiper-custom .swiper-button-prev {
   padding: 8px;
-  width: 32px;
+  width: 32px; /*32px*/
   height: 32px;
   border: 1px solid #FFFFFF;
   background-color: transparent;
@@ -12389,7 +12389,8 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 
 .hero3-wrapper {
   position: relative;
-  margin-top: -294px;
+  /*margin-top: -294px;*/
+  margin-top: -380px;
   /* Medium devices */
 }
 
@@ -19420,7 +19421,7 @@ span.select2-selection.select2-selection--single:focus {
 .img-box3 .img2 {
   position: absolute;
   top: 20%;
-  right: 12%;
+  right: 10%;
   /* Small devices */
   /* Extra small devices */
 }

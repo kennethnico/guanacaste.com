@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 .casual-rush-font{
   font-family: 'CasualRush'!important;
 }
@@ -33,6 +32,9 @@
 .my-margin-right-20{
  margin-right: 20px!important;
 }
+.font-bolder{
+  font-weight: 900!important;
+}
 /* Contacto */
 .my-hero-2{
   border-radius: 0px!important;
@@ -42,6 +44,14 @@
   border-radius: 0px!important;
 }
 
+
+/*Line height*/
+.lh-normal{
+  line-height: normal!important;
+}
+.gray-font{
+  color: #808080!important;
+}
 .cd-h-timeline__event-title{
   /*font-family: 'Montez', sans-serif!important;*/
   font-size: 1.5em!important;
