@@ -49,6 +49,11 @@
 .lh-normal{
   line-height: normal!important;
 }
+h1{
+  line-height: 65px!important;
+  font-weight: bolder!important;
+}
+
 .gray-font{
   color: #808080!important;
 }

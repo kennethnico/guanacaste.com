@@ -3438,7 +3438,7 @@ hr.title-line {
 
 @media (max-width: 1599px) {
   .shape-mockup.shape1 {
-    display: none !important;
+    /*display: none !important;*/
   }
 }
 
@@ -7610,6 +7610,7 @@ ol.wp-block-rss {
   font-family: var(--body-font);
   color: var(--black-color2);
   text-transform: capitalize;
+  font-family: 'Nunito sans'!important;
 }
 
 .main-menu a:hover {
@@ -8204,7 +8205,8 @@ ol.wp-block-rss {
   position: absolute;
   top: 0;
   left: 0;
-  width: 19%;
+  /* width: 19%;*/
+  width: 15%;
   height: 92px;
   z-index: -1;
   background-color: var(--theme-color);
@@ -8224,7 +8226,7 @@ ol.wp-block-rss {
 
 @media (max-width: 1299px) {
   .header-layout1 .logo-bg {
-    width: 28%;
+    width: 23%;
   }
 }
 
