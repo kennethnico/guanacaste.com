@@ -54,6 +54,16 @@ h1{
   font-weight: bolder!important;
 }
 
+a.my-line-btn{
+  /*color: #808080!important;*/
+  text-transform: none!important;
+}
+a.my-line-btn:hover{
+  color: #808080!important;
+}
+
+/*============*/
+
 .gray-font{
   color: #808080!important;
 }
