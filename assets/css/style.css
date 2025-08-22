@@ -2535,6 +2535,14 @@ input[type=time]::-webkit-calendar-picker-indicator {
     font-weight: 700;
   }
 }
+@media (max-width: 370px){
+  .th-preloader .animation-preloader .txt-loading {
+    margin-top: 20px!important;
+    font-size: 30px!important;
+    line-height: 40px;
+    font-weight: 700;
+  }
+}
 
 .th-preloader .animation-preloader .txt-loading p {
   display: inline-block;
@@ -2559,26 +2567,46 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .th-preloader .animation-preloader .txt-loading .characters:nth-child(2):before {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(3):before {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
 
-.th-preloader .animation-preloader .txt-loading .characters:nth-child(3):before {
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(4):before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(5):before {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
 }
 
-.th-preloader .animation-preloader .txt-loading .characters:nth-child(4):before {
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 
-.th-preloader .animation-preloader .txt-loading .characters:nth-child(5):before {
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(7):before {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(9):before {
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
 }
 
-.th-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
+.th-preloader .animation-preloader .txt-loading .characters:nth-child(10):before {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
@@ -21462,8 +21490,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .team-grid .team-img2 {
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   margin-top: -100px;
   border: 3px solid var(--white-color);

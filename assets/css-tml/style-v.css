@@ -868,6 +868,7 @@ table {
   font-size: 2.48832em;
   font-size: var(--text-xxxl, 2.488em);
 }
+/*
 h1,
 .text-xxl {
   font-size: 2.0736em;
@@ -888,6 +889,7 @@ h4,
   font-size: 1.2em;
   font-size: var(--text-md, 1.2em);
 }
+  */
 small,
 .text-sm {
   font-size: 0.83333em;

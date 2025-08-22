@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montez&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 html,
 body,
 div,
@@ -11,7 +12,6 @@ iframe,
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -87,6 +87,7 @@ hr {
   padding: 0;
   border: 0;
 }
+
 /*
 html {
   box-sizing: border-box;
@@ -992,10 +993,10 @@ body {
   color: var(--color-contrast-high, #313135);
 }
 */
+
 h1,
 h2,
-h3,
-h4 {
+h3{
   color: hsl(240, 8%, 12%);
   color: var(--color-contrast-higher, #1c1c21);
   line-height: 1.2;
@@ -1020,11 +1021,13 @@ h3,
   font-size: 1.44em;
   font-size: var(--text-lg, 1.44em);
 }
+  /*
 h4,
 .text-md {
   font-size: 1.2em;
   font-size: var(--text-md, 1.2em);
 }
+  */
 small,
 .text-sm {
   font-size: 0.83333em;
