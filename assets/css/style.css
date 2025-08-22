@@ -1356,7 +1356,7 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type="number"] {
-  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 input[type="checkbox"] {
@@ -2396,7 +2396,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
   font-size: 12px;
   border-radius: 50px;
   background-color: var(--smoke-color);
-  float: right;
+  /*float: right;*/
   margin-top: 1px;
 }
 
@@ -3429,9 +3429,9 @@ hr.title-line {
 }
 
 @media (max-width: 1600px) {
-  .shape-mockup {
-    /*display: none !important;*/
-  }
+  /*.shape-mockup {
+    display: none !important;
+  }*/
 }
 
 .shape-mockup.z-index-3 {
@@ -3465,9 +3465,9 @@ hr.title-line {
 }
 
 @media (max-width: 1599px) {
-  .shape-mockup.shape1 {
-    /*display: none !important;*/
-  }
+  /*.shape-mockup.shape1 {
+    display: none !important;
+  }*/
 }
 
 .shape-mockup.shape2 {
@@ -3476,9 +3476,9 @@ hr.title-line {
 }
 
 @media (max-width: 1599px) {
-  .shape-mockup.shape2 {
-    /*display: none !important;*/
-  }
+  /*.shape-mockup.shape2 {
+    display: none !important;
+  }*/
 }
 
 .shape-mockup.shape3 {
@@ -8041,9 +8041,9 @@ ol.wp-block-rss {
   transition: all 0.4s ease-in-out;
 }
 
-.header-default.unittest-header .menu-area {
+/*.header-default.unittest-header .menu-area {*/
   /* Medium devices */
-}
+/*}*/
 
 @media (max-width: 991px) {
   .header-default.unittest-header .menu-area {
@@ -8161,9 +8161,9 @@ ol.wp-block-rss {
   }
 }
 
-.header-layout1 .header-right .header-links li {
+/*.header-layout1 .header-right .header-links li {*/
   /* Extra small devices */
-}
+/*}*/
 
 .header-layout1 .header-right .header-links li:not(:last-child) {
   margin: 0 28px 0 0;
@@ -8203,9 +8203,9 @@ ol.wp-block-rss {
   background-image: none !important;
 }
 
-.header-layout1 .sticky-wrapper .menu-area {
+/*.header-layout1 .sticky-wrapper .menu-area {*/
   /* Large devices */
-}
+/*}*/
 
 @media (max-width: 1199px) {
   .header-layout1 .sticky-wrapper .menu-area {
@@ -8508,9 +8508,8 @@ ol.wp-block-rss {
 }
 
 /* ------------------------------Header 4  end ---------------------------------- */
-.header-layout5 .menu-area {
-  /* Large devices */
-}
+/*.header-layout5 .menu-area {
+}*/
 
 @media (max-width: 1199px) {
   .header-layout5 .menu-area {
@@ -8625,9 +8624,6 @@ ol.wp-block-rss {
   background: var(--theme-color);
 }
 
-.header-layout9 .simple-btn {
-  /* Extra small devices */
-}
 
 @media (max-width: 375px) {
   .header-layout9 .simple-btn {
@@ -8675,9 +8671,6 @@ ol.wp-block-rss {
   background-color: var(--theme-color);
 }
 
-.header-layout7 .menu-area {
-  /* Large devices */
-}
 
 @media (max-width: 1199px) {
   .header-layout7 .menu-area {
@@ -8685,9 +8678,6 @@ ol.wp-block-rss {
   }
 }
 
-.header-layout7 .header-logo {
-  /* Extra small devices */
-}
 
 @media (max-width: 375px) {
   .header-layout7 .header-logo {
@@ -8700,19 +8690,12 @@ ol.wp-block-rss {
   gap: 40px;
 }
 
-.header-layout8 .menu-area {
-  /* Large devices */
-}
-
 @media (max-width: 1199px) {
   .header-layout8 .menu-area {
     padding: 15px 0;
   }
 }
 
-.header-layout8 .header-logo {
-  /* Extra small devices */
-}
 
 @media (max-width: 375px) {
   .header-layout8 .header-logo {
@@ -8860,10 +8843,6 @@ ol.wp-block-rss {
 
 .header-layout15 .th-social a:hover {
   background: var(--theme-color);
-}
-
-.header-layout15 .simple-btn {
-  /* Extra small devices */
 }
 
 @media (max-width: 375px) {
@@ -35141,6 +35120,7 @@ span.select2-selection.select2-selection--single:focus {
   box-shadow: none;
   border: none;
   min-width: 896px;
+  right: -30px;
   /* Medium Large devices */
   /* Large devices */
   /* Medium devices */
@@ -35173,6 +35153,7 @@ span.select2-selection.select2-selection--single:focus {
     min-width: 100%;
     box-shadow: 0px 20px 20px rgba(204, 204, 204, 0.15);
     border-radius: 16px;
+    right: 0!important;
   }
 }
 

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CasualRush';
-    src: url('../my-fonts/casual-rush.otf') formato('opentype');
+    src: url('../my-fonts/casual-rush.woff2') formato('opentype');
     font-weight: normal;
     font-style: normal;
 }
