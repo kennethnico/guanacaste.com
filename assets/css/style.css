@@ -99,7 +99,8 @@
   --title-font: "Nunito", sans-serif;
   --body-font: "Nunito", sans-serif;
   --montez-font: "Montez", sans-serif;
-  --icon-font: "Font Awesome 6 Pro";
+  --icon-font: "FontAwesome";
+  --my-icon-font:"FontAwesome";
   --main-container: 1320px;
   --container-gutters: 24px;
   --section-space: 120px;
@@ -107,7 +108,6 @@
   --section-title-space: 60px;
   --ripple-ani-duration: 2s;
 }
-
 /*------------------- 1.5. Typography -------------------*/
 .nunito-sans-600{
   font-family: "Nunito Sans", sans-serif!important;
@@ -1272,7 +1272,7 @@ select {
   display: block;
   width: 100%;
   line-height: 1.5;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
   background-position: right 26px center;
   background-repeat: no-repeat;
@@ -3105,7 +3105,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 
 .scroll-top:after {
   content: "\f062";
-  font-family: var(--icon-font);
+  font-family: var(--my-icon-font);
   position: absolute;
   text-align: center;
   line-height: 50px;
@@ -7244,14 +7244,14 @@ ol.wp-block-rss {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 0;
   background-color: transparent;
   border-bottom: none;
   position: relative;
 }
 
 .footer-widget.widget_meta a:before, .footer-widget.widget_pages a:before, .footer-widget.widget_archive a:before, .footer-widget.widget_categories a:before, .footer-widget.widget_nav_menu a:before {
-  content: "\f105";
+  /*content: "\f105";*/
   position: absolute;
   font-weight: 600;
   left: 0;
@@ -9230,7 +9230,7 @@ heding animation  end
 }
 
 .footer-layout2 .footer-widget .widget_title {
-  color: var(--white-color);
+  color: var(--title-color);
 }
 
 .footer-layout2 .footer-widget.widget_nav_menu a {
@@ -9238,11 +9238,13 @@ heding animation  end
 }
 
 .footer-layout2 .footer-widget.widget_nav_menu a:not(:hover) {
-  color: #E9F6F9;
+  /*color: #E9F6F9;*/
+  color: var(--title-color);
 }
 
 .footer-layout2 .about-text {
-  color: #E9F6F9;
+  /*color: #E9F6F9;*/
+  color: var(--title-color);
   font-weight: 300;
   margin-bottom: 22px;
 }

@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'CasualRush';
+    font-family: 'Casual Rush';
     src: url('../my-fonts/casual-rush.woff2') formato('opentype');
     font-weight: normal;
     font-style: normal;
 }
 .casual-rush-font{
-  font-family: 'CasualRush'!important;
+  font-family: 'Casual Rush'!important;
 }
 /*My margin*/
 .my-margin-bottom-10{
